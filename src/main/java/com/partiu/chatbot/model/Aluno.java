@@ -20,5 +20,36 @@ public class Aluno {
     private String nomeAluno;
 
     @Column(name = "CPF_ALUNO")
-    private String cpfAluno;
+    private Integer cpfAluno;
+
+    @Column (name = "RG_Aluno")
+    private Integer rgAluno;
+
+    @Column(name = "DATA_NASCIMENTO_ALUNO")
+    private Date dataNascimentoAluno;
+
+    @Column (name = "ENDERECO_ALUNO")
+    private String endecoAluno;
+
+    @Column (name = "BAIRRO_ALUNO")
+    private String bairroAluno;
+
+    @Column (name = "MUNICIPIO_ALUNO")
+    private String municipioAluno;
+
+    @Column (name = "UF_ALUNO")
+    private String ufAluno;
+
+    @Column (name = "CEP_ALUNO")
+    private Integer cepAluno;
+
+    @Column (name ="TELEFONE_ALUNO")
+    private Integer telefoneAluno;
+
+    @Column (name ="ESCOLARIDADE_ALUNO")
+    private String escolaridadeAluno;
+
+    @Column (name ="EMAIL_ALUNO")
+    private String emailAluno;
+
 }
